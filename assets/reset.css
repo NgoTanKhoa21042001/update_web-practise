@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  display: block;
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  height: 400vh;
+  font-family: "Noto Sans JP", sans-serif;
+  /* padding: 20px; */
+  /* background-color: rgba(0,0,0,.05); */
+}
+
+.boxed {
+  width: 50px;
+  height: 50px;
+}
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  line-height: normal;
+}
+
+button {
+  cursor: pointer;
+}
